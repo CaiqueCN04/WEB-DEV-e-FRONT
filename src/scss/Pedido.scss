@@ -1,0 +1,45 @@
+@import './variaveis.scss';
+
+.pedido{
+    display: flex;
+    background-color: $cor-fundo;
+    height: 700px;
+    text-align: center;
+    padding: 15px;
+    flex-direction: column;
+}
+
+.inputPed{
+    margin: 20px;
+    width: 350px;
+}
+.titulocadastroPed{
+    text-align: center;
+    height: 80px;
+}
+
+
+.dados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35%;
+    background-color: rgb(119, 231, 116);
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+}
+
+.botao{
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    .dados{
+        display: flex;
+        margin-left: 4%;
+    }   
+}

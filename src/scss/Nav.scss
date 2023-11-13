@@ -1,0 +1,39 @@
+@import './variaveis';
+
+
+
+nav{
+   display: flex;
+   height: 110px;
+   align-items: center;
+   justify-content: space-around;
+   background-color: #b3d8b285;
+}
+
+.tudoNav{
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 19px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 19px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 19px 5px 0px rgba(0,0,0,0.75);
+}
+ul{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+    justify-content:center;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 480px){
+    nav{
+        display: flex;
+        height: 300px;
+        
+    }
+   
+    ul{
+        gap: 4px;
+        height: 40px;
+    }
+}

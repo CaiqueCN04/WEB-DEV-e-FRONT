@@ -1,0 +1,40 @@
+@import './variaveis.scss';
+ 
+main{
+    background-color: $cor-fundo;  
+    text-align: center;
+}
+.ps{
+    display: flex;
+    padding-top: 30px;
+    font-size: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+ 
+.lp{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 30px;
+}
+ 
+.ulss{
+    flex-basis: 50%;
+    width: 78vh;
+    border-right: 2px solid black;
+    padding: 40px;
+}
+ 
+.uls{
+    flex-basis: 50%;
+    width: 78vh;
+    padding: 40px;
+}
+ 
+@media screen and (max-width: 480px) {
+    h1{
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}

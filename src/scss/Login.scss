@@ -1,0 +1,88 @@
+@import './variaveis.scss';
+ 
+ 
+ 
+ 
+ 
+  .containerLogin {
+    background-color: $cor-login;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Defina duas colunas com largura igual */
+    align-items: center;
+    text-align: center;
+    grid-template-areas:
+      "header header"
+      "meio meio2"
+      "meiob meiob"
+      "footer footer";
+    height: 800px;
+    width: 100%;
+  }
+ 
+  .titulo{
+    border-radius: 30px;
+    background-color: #8fea69a9;
+    grid-area: header;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    margin-left: 21%;
+    -webkit-box-shadow: -2px 10px 111px -22px rgba(0,0,0,0.59);
+    -moz-box-shadow: -2px 10px 111px -22px rgba(0,0,0,0.59);
+    box-shadow: -2px 10px 111px -22px rgba(0,0,0,0.59);
+  }
+ 
+  .login-cadastro {
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+  }
+ 
+ 
+ 
+  form {
+    margin-top: 60px;
+ 
+  }
+ 
+  .login {
+    background-color: #96d35f;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    border-radius: 20px;
+   
+    margin-left: 190px;
+    opacity: 0.8;
+    -webkit-box-shadow: 1px 5px 23px 3px #444444;
+    box-shadow: 1px 5px 23px 3px #434343;
+  }
+ 
+ 
+ 
+  .cadastro {
+    background-color: #96d35f;
+    text-align: center;
+    width: 400px;
+    height: 350px;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 90px;
+    opacity: 0.8;
+    -webkit-box-shadow: 1px 5px 23px 3px #444444;
+    box-shadow: 1px 5px 23px 3px #434343;
+  }
+ 
+  input {
+    border-radius: 30px;
+    border: none;
+    margin: 10px;
+  }
+ 
+@media screen and (max-width: 480px) {
+    .containerLogin{
+        flex-direction: column;
+    }
+}

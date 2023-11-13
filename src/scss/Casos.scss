@@ -1,0 +1,32 @@
+@import './variaveis.scss';
+ 
+.containerCasos{
+    display: flex;
+    background-color: $cor-fundo;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+ 
+#titulocasos{
+    margin: 20px;
+    font-size: 7vh;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+.textocasos{
+    width: 40%;
+    font-size: 3vh;
+    margin-top: 4vh;
+}
+ 
+.imagemcasos{
+    width: 95vh;
+ 
+}
